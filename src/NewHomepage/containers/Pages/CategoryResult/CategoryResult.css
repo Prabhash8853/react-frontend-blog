@@ -1,0 +1,17 @@
+.search_result_page {
+    width: 50%;
+    margin: 5em auto;
+}
+
+
+
+@media only screen and (max-width: 968px) {
+    .search_result_page {
+        width: 95%;
+        margin: -4em auto;
+    }
+
+    .category_list_header {
+        margin: 5em auto;
+    }
+}

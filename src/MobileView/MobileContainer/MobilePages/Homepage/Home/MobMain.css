@@ -1,0 +1,22 @@
+.mob-main {
+    margin: 5em 0px;
+    width: 100%;
+    padding: 30px;
+}
+
+.Ads-mob>img {
+    margin-top: 1rem;
+    margin-left: 35px;
+}
+
+@media screen and (max-width: 320px) {
+    .Ads-mob>img {
+        margin-left: 8px;
+    }
+}
+
+@media screen and (min-width: 322px) and (max-width: 380px) {
+    .Ads-mob>img {
+        margin-left: 12px;
+    }
+}

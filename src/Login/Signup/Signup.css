@@ -1,0 +1,51 @@
+.signup_mb_tp {
+  width: 100%;
+  display: block;
+}
+
+.signupBtn {
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  outline: none !important;
+  background-color: #afc34f;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+.signup_mb_nav {
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 65px;
+  background-color: white;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  z-index: 999;
+  padding: 10px 20px;
+}
+
+.signup_go_back {
+  padding: 10px 10px;
+}
+
+.signup_head {
+  flex: 1;
+  font-size: 18px;
+}
+
+.signup_head > p {
+  margin-bottom: 0px;
+}
+
+.signup-form {
+  display: flex;
+  flex-flow: column;
+  padding: 20px 20px;
+  position: relative;
+  margin-top: 2rem;
+}

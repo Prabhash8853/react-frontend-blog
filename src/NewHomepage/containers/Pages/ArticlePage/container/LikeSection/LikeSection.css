@@ -1,0 +1,46 @@
+/* mobile design */
+
+.like_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+  padding: 10px;
+  z-index: 9999;
+  background: white;
+}
+
+.like_artcl-heart {
+  color: #be5858;
+}
+
+.color_black {
+  color: black;
+}
+
+.fa-icon {
+  font-size: 1.5em;
+}
+.fa-icon:hover {
+  cursor: pointer;
+}
+
+.color_green {
+  color: #afc157;
+}
+
+/* for screens above 768px */
+
+@media only screen and (min-width: 769px) {
+  .like_section {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    height: 50%;
+  }
+}

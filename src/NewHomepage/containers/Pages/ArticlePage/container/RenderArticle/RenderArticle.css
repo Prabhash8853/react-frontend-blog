@@ -1,0 +1,31 @@
+.tag-link.show {
+    padding: 20px;
+    display: block;
+    height: auto;
+    min-width: 360px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    background-color: white;
+    border-radius: 10px 0px 0px 10px;
+    color: black;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.18), 0px 3px 6px rgba(0, 0, 0, 0.18);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+    transition: transform 0.2s ease-in;
+    z-index: 500;
+}
+
+.link-font {
+    font-size: 14px;
+    color: #003f84 !important;
+}
+
+.article-backdrop {
+    background-color: transparent;
+    z-index: 400;
+}
+
+.embeds:hover {
+    cursor: pointer;
+}

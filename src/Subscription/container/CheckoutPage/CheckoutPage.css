@@ -1,0 +1,54 @@
+.checkout_container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.checkout_bill_container {
+    display: block;
+    height: auto;
+    width: 50%;
+    margin: auto;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.18);
+    text-align: center;
+    padding: 10px;
+}
+
+.checkout {
+    display: block;
+    background-color: #F4F4F4;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.payment-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 6fr);
+    grid-auto-rows: auto;
+    grid-gap: 10px;
+
+}
+
+.payment-grid-item {
+    text-align: left;
+    padding: 10px;
+}
+
+
+.color-green {
+    color: #677B00
+}
+
+
+@media only screen and (max-width: 790px) {
+    .checkout_bill_container {
+        width: 100%;
+    }
+
+    .checkout {
+        width: 100%;
+    }
+}

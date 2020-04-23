@@ -1,0 +1,143 @@
+.login_mb {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+.login_sec_mb {
+  display: flex;
+  flex-flow: column;
+  padding: 20px 20px;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+
+.login_logo {
+  flex: 1;
+  width: 100%;
+  height: 60px;
+}
+
+.login_logo > a > img {
+  height: 100%;
+  padding-left: 15px;
+}
+
+.moto {
+  margin-top: 20px;
+  flex: 1;
+}
+
+.moto > p {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.mg_btm_0 {
+  margin-bottom: 0px;
+}
+
+.login_opt_mb {
+  margin-top: 50px;
+}
+
+.login_opt_mb > p {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.form_element {
+  margin-top: 30px;
+  padding: 20px 20px;
+  display: block;
+  width: 100%;
+}
+
+.form-group_mb {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.color_60 {
+  color: #606061;
+}
+
+.loginBtn {
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  outline: none !important;
+  background-color: #afc34f;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+
+.or_opt {
+  line-height: 0.5;
+  text-align: center;
+  color: #606061;
+}
+
+.or_opt span {
+  display: inline-block;
+  position: relative;
+}
+
+.or_opt span::before,
+.or_opt span::after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid #DEDEDE;
+  top: 0;
+  width:190px;
+}
+
+.or_opt span::before {
+  right: 100%;
+  margin-right: 15px;
+}
+.or_opt span::after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+
+.signup_sec_mb{
+  margin-top: 30px;
+  color: #afc34f;
+  font-weight: bold;
+}
+
+.signup_sec_mb:hover{
+  cursor: pointer;
+}
+
+.alert-login{
+  color: red;
+  margin: 10px 0px;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .or_opt span::before,
+  .or_opt span::after {
+    width: 141px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+    .or_opt span::before,
+    .or_opt span::after {
+        width: 119px;
+    }
+  }
+  

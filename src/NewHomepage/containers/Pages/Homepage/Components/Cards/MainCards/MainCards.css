@@ -1,0 +1,125 @@
+.main_card {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.main_card-img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.main_card-img>a>img {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.main_card-body-ttl>h1 {
+    font-size: calc(16px + 0.2vw);
+    font-family: 'Inter', sans-serif !important;
+    color: black;
+    font-weight: 600;
+}
+
+.main_card-body-ttl>h1>a {
+    color: black;
+    text-decoration: none;
+    line-height: 2em;
+}
+
+.main_card-body-dsc>a {
+    color: #707070;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.main_card-body-author {
+    display: flex;
+    justify-self: flex-start;
+    align-items: center;
+}
+
+.like-bookmark_container {
+    display: inline-flex;
+}
+
+.main_card-author-name>a {
+    text-decoration: none;
+    color: black;
+}
+
+.views {
+    color: #707070;
+}
+
+.main_card-bookmark {
+    font-size: 1.4em;
+}
+
+.main_card-like {
+    margin: 0px 35px;
+    font-size: 1.4em;
+}
+
+.main_card-like:hover,
+.main_card-bookmark:hover {
+    cursor: pointer;
+}
+
+.color58 {
+    color: #BE5858;
+}
+
+.color-green {
+    color: #677B00;
+}
+
+.profile_article_ruler:before {
+    width: 100%;
+    content: "";
+    display: block;
+    border-bottom: 2px solid black;
+    padding: 10px 0px;
+}
+
+.profile_card {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    align-items: center;
+    border-bottom: 1px solid #adadad;
+}
+
+.main_profile_card {
+    padding: 0px 0px 40px 0px;
+}
+
+.main_profile-card-img {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.profile-card-imgtop {
+    height: 90px;
+    width: 90px;
+    border-radius: "100%" !important;
+}
+
+@media only screen and (min-width: 769px) {
+    .profile-card-imgtop {
+        height: 175px;
+        width: 100%;
+        border-radius: 3px;
+    }
+
+    .profile_card {
+        border-bottom: none;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.18), 2px 2px 13px rgba(0, 0, 0, 0.01);
+    }
+}

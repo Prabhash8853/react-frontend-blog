@@ -1,0 +1,41 @@
+.paypal_btn {
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.continue_btn {
+    align-self: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.payment_loader {
+    background-color: #969696ab;
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.payment_loading {
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 50%;
+    border-top: 5px solid #ffffff00;
+    width: 80px;
+    height: 80px;
+    margin-top: 20%;
+    margin-left: 5px;
+}
+
+
+@media only screen and (max-width: 790px) {
+    .paypal_btn {
+        width: 100%;
+    }
+}

@@ -1,0 +1,24 @@
+.main_section {
+    margin-top: 3em;
+    display: flex;
+    width: 100%;
+    padding: 2.5em 2em;
+    justify-content: space-between;
+}
+
+.featuredSec_container {
+    flex: 0.25;
+}
+
+.main_container {
+    width: 100%;
+    flex: 0.5;
+    margin: 0px 2em;
+    padding: 0px 1em;
+}
+
+@media only screen and (min-width: 969px) and (max-width: 1330px) {
+    .main_container {
+        flex: 0.5;
+    }
+}

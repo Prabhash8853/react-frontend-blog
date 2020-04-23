@@ -1,0 +1,24 @@
+.logo_span {
+    display: inline-block;
+    color: #808184;
+    font-family: Proxima Nova;
+    font-size: 13px;
+    padding-left: 13px;
+    border-left: 1px solid #979797;
+    height: 30px;
+    font-weight: 400;
+    margin-left: 13px;
+    position: relative;
+    top: 10px;
+    line-height: 1.23;
+}
+
+@media only screen and (max-width: 1052px) {
+    .logo_span {
+        display: none;
+    }
+
+    .vigyaa-nav-logo {
+        flex: 0.2
+    }
+}

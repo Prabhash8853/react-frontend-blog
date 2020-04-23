@@ -1,0 +1,30 @@
+.OAuth{
+    margin-top: 20px;
+    color: #606061;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 0px 20px
+    
+}
+
+.fl-4{
+    flex: 0.4;
+    font-size: 16px;
+}
+
+.fl-2{
+    flex: 0.2;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 320px){
+    .OAuth{
+        padding: 0px 10px;
+    }
+}

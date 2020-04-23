@@ -1,0 +1,117 @@
+.profileEdit_container {
+    width: 100%;
+    height: 100vh;
+}
+
+.profile_edit-details {
+    display: grid;
+    margin-top: 2em;
+    padding: 10px;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 4fr);
+    grid-auto-rows: auto;
+}
+
+.profile_edit-image {
+    grid-column: 1 / 1;
+    grid-row: 1 / -1;
+    text-align: center;
+    height: auto;
+}
+
+.profileLabel_color {
+    color: #677B00;
+    font-size: calc(14px + 0.1vw);
+}
+
+.grid-full-col {
+    grid-column: 1 / -1;
+}
+
+.grid-half-col {
+    grid-column: span 1;
+}
+
+.profile_inputBlock {
+    grid-column: 2 / -1;
+    width: 70%;
+}
+
+.profile_edit_grid {
+    display: grid;
+    padding: 10px;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 6fr);
+}
+
+
+.profileEdit_input {
+    color: black !important;
+    margin: 0px !important;
+    width: 100%;
+}
+
+.profile_label {
+    margin-top: 10px;
+    color: #677B00;
+    margin-bottom: 0px;
+    font-size: calc(14px + 0.1vw);
+}
+
+.profile_edit {
+    top: 229px
+}
+
+.inputclass {
+    border-radius: 5px;
+    outline: none;
+    margin: 20px 0px;
+    line-height: 3em;
+    padding: 0px 10px;
+    background-color: rgba(175, 193, 87, 0.5);
+    border: none !important;
+}
+
+.edit_profile_saveBtn {
+    max-width: 150px;
+    margin: 20px auto;
+    background-color: #BE5858;
+    color: white;
+    border: 1px solid #BE5858;
+    line-height: 2em;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.18);
+}
+
+.edit_profile_saveBtn:hover {
+    cursor: pointer;
+    box-shadow: none;
+    transition: box-shadow 0.2s ease-in;
+}
+
+.imageUploader {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: white;
+    color: white;
+    border: none;
+    opacity: 0;
+    position: absolute;
+    z-index: 100;
+    right: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+    .profile_edit-image {
+        grid-column: 1 / -1;
+    }
+
+    .profile_edit-data {
+        grid-column: 1 / -1;
+    }
+
+    .profile_inputBlock {
+        grid-column: 1 / -1;
+        width: 100%;
+    }
+}

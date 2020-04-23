@@ -1,0 +1,18 @@
+.featuredSec_container-elements {
+    position: sticky;
+    top: -125%;
+
+}
+
+@media only screen and (min-width: 969px) and (max-width: 1330px) {
+    .featuredSec_container {
+        flex: 0.25;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1330px) {
+    .featuredSec_container-elements {
+        position: sticky;
+        top: -160%;
+    }
+}

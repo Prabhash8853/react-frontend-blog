@@ -1,0 +1,212 @@
+b {
+  font-weight: 700;
+}
+
+.hero-section {
+  background-image: url(/static/img/scholarship-hero.jpg);
+  font-family: 'Roboto', sans-serif;
+  background-size: cover;
+  background-position: center top;
+  padding: 1% 5%;
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+}
+
+.hero-content {
+  width: 100%;
+  max-width: 750px;
+  margin: auto;
+}
+
+.hero-content h1 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+.scholar-content-wrap {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.scholar-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 3% 1%;
+}
+
+.scholar-content h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+}
+
+.scholar-content ul li {
+  line-height: 2;
+  margin: 10px 0px;
+}
+
+.grey-bg {
+  background-color: #3f3f3f;
+  color: #fff;
+  background-image: url(/static/img/scholar-grey-bg2.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.green-bg {
+  background-color: #bdd635;
+  color: #3f3f3f;
+  text-align: center;
+}
+
+.angle-bg-top {
+  -webkit-clip-path: polygon(0 4%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 4%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.angle-bg-bottom {
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 94%);
+}
+
+h3 span {
+  color: #bdd635;
+}
+
+.vigyaa-help_email {
+  color: blue !important;
+  font-weight: 700;
+}
+
+.prompts_list--item {
+  cursor: pointer;
+}
+
+.prompts_modal {
+  display: block;
+  position: absolute;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 23px 16px 18px rgba(0, 0, 0, 0.18), 4px 28px 14px rgba(0, 0, 0, 0.18);
+  width: 50%;
+  height: 300px;
+  transform: translate(50%, -500%);
+  animation: translate 0.7s ease-in-out forwards;
+  z-index: 999;
+  padding: 20px;
+  line-height: 2;
+  font-size: calc(12px + 0.5vw);
+}
+
+.prompts_modal>h2 {
+  text-align: center;
+}
+
+.backdrop_scholarship {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 600;
+  background-color: #828282e6;
+}
+
+.span_close {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  width: 40px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.wd-80 {
+  width: 88%;
+  margin: auto
+}
+
+
+@keyframes translate {
+  0% {
+    transform: translateY(50%, -500%);
+  }
+
+  50% {
+    transform: translate(50%, -200%);
+  }
+
+  100% {
+    transform: translate(50%, -230%);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .hero-section {
+    min-height: 150px;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .scholar-content {
+    padding: 6% 2%;
+  }
+
+  .scholar-content h2 {
+    font-size: 28px;
+  }
+
+  .grey-bg {
+    background-image: none;
+  }
+
+  .angle-bg-bottom {
+    padding-bottom: 7%;
+  }
+
+  .prompts_modal {
+    width: 80%;
+    height: 400px;
+    transform: translate(15%, -500%);
+  }
+
+  @keyframes translate {
+    0% {
+      transform: translateY(15%, -500%);
+    }
+
+    50% {
+      transform: translate(15%, -280%);
+    }
+
+    100% {
+      transform: translate(15%, -300%);
+    }
+  }
+
+}
+
+
+@media only screen and (max-width: 320px) {
+  @keyframes translate {
+    0% {
+      transform: translateY(15%, -500%);
+    }
+
+    50% {
+      transform: translate(15%, -280%);
+    }
+
+    100% {
+      transform: translate(15%, -300%);
+    }
+  }
+}

@@ -1,0 +1,77 @@
+.form_elment_dtp{
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px 20px;
+    display: block;
+    width: 30%;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.login_opt_dtp{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.color_60dtp{
+    font-weight: bold;
+    font-family: 'Proxima Nova';
+}
+
+.or_opt_dtp {
+    line-height: 0.5;
+    text-align: center;
+    color: #606061;
+    margin-top: 20px;
+  }
+  
+  .or_opt_dtp span {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .or_opt_dtp span::before,
+  .or_opt_dtp span::after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid #DEDEDE;
+    top: 0;
+    width: 178px;
+  }
+  
+  .or_opt_dtp span::before {
+    right: 100%;
+    margin-right: 15px;
+  }
+  .or_opt_dtp span::after {
+    left: 100%;
+    margin-left: 15px;
+  }
+  
+  .inpt_login{
+      background-color: transparent;
+  }
+
+@media only screen and (min-width: 1302px) and (max-width: 1440px) {
+    .or_opt_dtp span::before,
+    .or_opt_dtp span::after {
+        width: 140px
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) and (max-width: 1301px) {
+    .or_opt_dtp span::before,
+    .or_opt_dtp span::after {
+        width: 104px;
+    }
+  }
+
+  @media only screen and (min-width: 1366px) and (max-width: 1380px) {
+    .or_opt_dtp span::before,
+    .or_opt_dtp span::after {
+        width: 170px;
+    }
+  }

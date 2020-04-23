@@ -1,0 +1,48 @@
+.privacy__container {
+    width: 100%;
+    padding: 1.5em;
+    margin: 5em auto;
+}
+
+.privacy__container--content {
+    padding: 20px 20px;
+}
+
+.header_h4 {
+    margin-top: 10px;
+    color: black;
+    font-weight: 700;
+}
+
+.header_h4::after {
+    content: "";
+    display: block;
+    width: 50%;
+    border-bottom: 5px solid #677B00;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .header_h4::after {
+        width: 35%;
+    }
+
+    .privacy__container {
+        margin: 4em auto;
+    }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 968px) {
+    .header_h4::after {
+        width: 35%;
+    }
+
+    .privacy__container {
+        margin: 6em auto;
+    }
+}

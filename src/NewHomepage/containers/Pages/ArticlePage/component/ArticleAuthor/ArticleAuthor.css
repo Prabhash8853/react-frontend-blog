@@ -1,0 +1,58 @@
+.authorIntro__card {
+  display: block;
+  padding: 10px;
+  height: 6em;
+}
+
+.authorIntro_container {
+  display: inline-flex;
+  width: 100%;
+  margin: auto;
+  height: 100%;
+}
+
+.authorIntro_img {
+  display: inline-block;
+  padding: 3px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #677b00;
+  border-radius: 50%;
+}
+
+.authorIntro_img > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.authorIntro {
+  display: inline-block;
+  margin: 8px 10px;
+  width: auto;
+}
+
+.authorIntro > h5 {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.authorIntro > p {
+  color: #757575;
+}
+
+/* for mobile design */
+
+@media only screen and (max-width: 425px) {
+  .article_author {
+    width: 100% !important;
+  }
+}
+
+/* for screens below 1024px and greater tha 768px */
+
+@media only screen and (max-width: 1024px) {
+  .article_author {
+    width: 80%;
+  }
+}

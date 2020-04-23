@@ -1,0 +1,21 @@
+.profile_followers {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+  grid-template-rows: auto;
+  text-align: left;
+}
+
+.followers-grid {
+  grid-column: span 4;
+  padding: 5px;
+}
+
+.followers-grid > p {
+  color: #be5858;
+  margin-bottom: 0px;
+}
+
+.CntFnt {
+  font-size: calc(14px + 0.2vw);
+}

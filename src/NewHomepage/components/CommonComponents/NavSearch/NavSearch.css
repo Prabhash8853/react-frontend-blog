@@ -1,0 +1,32 @@
+.navSearch-input{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.srch{
+    display: inline-block;
+}
+
+.srch:hover{
+    cursor: pointer;
+}
+
+.srch-btn{
+    background-color: transparent;
+    border: none;
+}
+
+.navSearch-input > form > input{
+    position: relative;
+    width: 89%;
+    padding-left: 2px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    transition: width 0.4s ease-in;
+}
+
+input[type=text] {
+   color: rgba(0,0,0,.5);
+  }

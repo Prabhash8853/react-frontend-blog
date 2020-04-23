@@ -1,0 +1,13 @@
+.trending_container {
+    width: 100%;
+    margin-top: 8em;
+    padding: 0px 30px;
+    margin-bottom: 10px;
+}
+
+.trending_loader {
+    width: 30px;
+    height: 30px;
+    margin-left: 40%;
+    border-top: 1px solid #be5858;
+}

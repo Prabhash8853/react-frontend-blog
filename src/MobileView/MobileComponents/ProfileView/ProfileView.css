@@ -1,0 +1,59 @@
+.author-intro{
+    margin-top: 84px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 7.5em;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.author-pf-img{
+    height: 86px;
+    width: 86px;
+
+}
+
+.author-pf-img > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.author-pf-details{
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.author-pf-intro-detail{
+    padding: 0px 10px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 500
+}
+
+.author-collection-details{
+    display: flex;
+    padding: 5px 10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    color: rgba(0,43,152,1);
+    font-weight: 500;
+}
+.pd-10{
+    padding: 10px 10px;
+    margin-bottom: 0px;
+}
+
+.follower-count,
+.following-count,
+.collection-count
+{
+    flex: 0.4;
+}
+

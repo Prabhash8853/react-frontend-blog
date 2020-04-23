@@ -1,0 +1,17 @@
+.searchBar-search:hover {
+    cursor: pointer;
+}
+
+.searchbar_container {
+    padding: 2px 0px;
+}
+
+.search-color {
+    color: #707070;
+}
+
+@media only screen and (max-width: 768px) {
+    .searchbar_container {
+        flex: 0.2;
+    }
+}

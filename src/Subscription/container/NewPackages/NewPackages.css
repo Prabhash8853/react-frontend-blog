@@ -1,0 +1,89 @@
+.pkg {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pkg__plan {
+    background-color: #E68174;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    border-radius: 2px;
+    box-shadow: 14px 17px 18px rgba(0, 0, 0, 0.18);
+    height: min-content;
+}
+
+
+.pkg__plan--recommended {
+    background-color: #BE5858;
+    box-shadow: 19px 46px 27px rgba(0, 0, 0, 0.18);
+    height: max-content;
+}
+
+.pkg__plan--badge p {
+    display: block;
+    background-color: #677b00;
+    border: 1px solid #677B00;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    color: white;
+    box-shadow: 10px 11px 6px rgba(0, 0, 0, 0.18);
+    margin-bottom: 10px;
+}
+
+.pkg__plan--pkg {
+    color: white;
+}
+
+
+.pkg__plan ul {
+    text-align: center;
+    list-style: none;
+    padding-left: 0px;
+}
+
+.pkg__plan ul li {
+    margin: 10px 0px;
+}
+
+.pkg__plan--list {
+    color: white
+}
+
+.pkg__plan--heading {
+    margin: 30px 0px;
+}
+
+.recommended {
+    color: white;
+    margin: 20px 0px;
+}
+
+.pkg__plan--button {
+    background-color: white;
+    border: 1px solid white;
+    color: #677B00;
+    line-height: 2em;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 10px 11px 6px rgba(0, 0, 0, 0.18);
+    outline: none !important;
+    margin: 20px auto;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .pkg__plan {
+        width: 80%
+    }
+
+    .pkg {
+        flex-flow: column;
+    }
+}

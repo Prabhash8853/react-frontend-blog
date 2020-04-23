@@ -1,0 +1,23 @@
+.profile_container {
+  display: block;
+  height: auto;
+  width: 100%;
+  padding: 1%;
+  position: relative;
+  margin-top: 5rem;
+}
+
+.profile_block {
+  display: flex;
+  flex-flow: column;
+  height: auto;
+  width: 80%;
+  justify-content: flex-start;
+  margin: auto;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1330px) {
+  .profile_block {
+    width: 90%;
+  }
+}

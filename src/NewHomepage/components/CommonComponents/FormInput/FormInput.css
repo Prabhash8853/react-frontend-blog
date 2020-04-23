@@ -1,0 +1,35 @@
+.inputclass {
+    border-radius: 5px;
+    outline: none;
+    margin: 20px 0px;
+    line-height: 3em;
+    padding: 0px 10px;
+    background-color: rgba(175, 193, 87, 0.5);
+    border: none !important;
+}
+
+.show_pass {
+    position: relative;
+    left: calc(100% + 180%);
+    bottom: calc(100% + 341%);
+    color: #BE5858;
+}
+
+.show_pass:hover {
+    cursor: pointer;
+}
+
+.login_btn {
+    width: 100%;
+    background-color: #AFC157;
+    color: white;
+    border: 1px solid #AFC157;
+}
+
+.login_btn:hover {
+    cursor: pointer;
+}
+
+.anchor_class_btn {
+    grid-column: 1 / -1;
+}

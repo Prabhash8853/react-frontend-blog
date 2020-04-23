@@ -1,0 +1,12 @@
+.author_bio {
+  line-height: 2;
+  font-size: calc(16px + 0.2vw);
+}
+
+/* for desktop from 1024px to above */
+
+@media only screen and (min-width: 1440px) {
+  .profile_bio {
+    width: 80%;
+  }
+}

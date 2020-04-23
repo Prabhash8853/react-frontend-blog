@@ -1,0 +1,57 @@
+.article-head a {
+    font-size: 16.5px;
+    font-weight: bold;
+    font-family: 'Proxima Nova';
+    color: black;
+    text-align: left;
+    text-decoration: none!important;
+}
+
+.cd-body-trending > h1 {
+    line-height: 0.7;
+}
+
+.mg-btm{
+    margin-bottom: 0px;
+}
+
+.cd-desc-trending a{ 
+    font-size: 15.5px;
+    font-family: 'Proxima Nova';
+    color: #757575;
+    text-align: left;
+    text-decoration: none!important;
+}
+
+
+
+.author-body-trending > h1 > a{
+    color: black;
+    font-size: 14px;
+    font-family: 'Proxima Nova';
+}
+
+.author-body-trending{
+    margin-top: -10px;
+}
+
+.time{
+    color: #757575;
+    font-size: 14px;
+    flex: 1;
+}
+
+.bookmark-sec{
+    display: flex;
+    
+}
+
+.cd-body-trending{
+    padding: 0px!important;
+    
+}
+
+.mg-tp-10{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}

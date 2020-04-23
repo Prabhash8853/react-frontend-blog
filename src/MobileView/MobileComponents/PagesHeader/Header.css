@@ -1,0 +1,44 @@
+.trending-tp-hd{
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.span-border::after{
+    content: "";
+    display: block;
+    margin-top: 10px;
+    border-bottom: 1px solid #DEDEDE;
+}
+
+.span-border-sm::after{
+    width: 30%;
+    content: "";
+    display: block;
+    border-bottom: 1px solid black;
+    margin-top: -1px;
+}
+
+
+
+.pg-hd-contain{
+    padding: 10px 10px 0px 10px;
+    flex: 1;
+}
+
+.pg-head{
+    font-size: 19px;
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+}
+
+.more-mb{
+    padding: 10px 10px 0px 10px;
+}
+
+.more > a{
+    color: #757575;
+}

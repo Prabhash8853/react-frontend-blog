@@ -1,0 +1,23 @@
+.slidertop_container {
+    display: block;
+    position: relative;
+    margin-top: 5px;
+}
+
+.slider-elements {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 10px;
+    text-align: left;
+}
+
+.color-grey {
+    color: #707070;
+}
+
+@media only screen and (min-width: 969px) {
+    .slidertop_container {
+        display: none;
+    }
+}

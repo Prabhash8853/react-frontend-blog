@@ -1,0 +1,28 @@
+/* css for mobile device */
+
+.pkg__bnfts__container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+.subscription_heading>h3 {
+  text-align: center;
+  margin-bottom: 0px !important;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+/* Media Queries for larger devices */
+
+@media only screen and (min-width: 1024px) {
+  .pkg__bnfts__container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+  }
+}
